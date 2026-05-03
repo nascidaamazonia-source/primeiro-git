@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes AI Agent | Serviços de Automação com IA</title>
+  <meta name="description" content="Página de venda de serviços com Hermes AI Agent: automações, agentes inteligentes, atendimento e produtividade com IA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a href="#inicio" class="brand" aria-label="Hermes AI Agent">
+        <span class="brand-mark">H</span>
+        <span>Hermes AI Agent</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato" class="nav-cta">Fale conosco</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Automação inteligente para negócios modernos</p>
+        <h1>Venda mais e trabalhe menos com agentes de IA sob medida.</h1>
+        <p class="hero-description">
+          Criamos soluções com Hermes AI Agent para atendimento, organização de tarefas,
+          criação de conteúdo, análise de dados e automações que economizam horas todos os dias.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contato" class="button primary">Quero automatizar meu negócio</a>
+          <a href="#servicos" class="button secondary">Ver serviços</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Resultados esperados">
+          <div>
+            <strong>24/7</strong>
+            <span>agentes trabalhando</span>
+          </div>
+          <div>
+            <strong>70%</strong>
+            <span>menos tarefas repetitivas</span>
+          </div>
+          <div>
+            <strong>+IA</strong>
+            <span>processos mais rápidos</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Demonstração do agente">
+        <div class="card-header">
+          <span class="status-dot"></span>
+          <span>Hermes online</span>
+        </div>
+        <div class="chat-box">
+          <div class="message user">Preciso responder clientes e organizar pedidos.</div>
+          <div class="message bot">Posso criar respostas, registrar pedidos e avisar sua equipe automaticamente.</div>
+          <div class="message user">E também gerar relatórios?</div>
+          <div class="message bot">Sim. Envio resumo diário com vendas, pendências e próximos passos.</div>
+        </div>
+        <button class="demo-button" id="demoButton">Simular atendimento</button>
+        <p class="demo-result" id="demoResult" aria-live="polite"></p>
+      </aside>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="section-heading">
+        <p class="eyebrow">Serviços</p>
+        <h2>O que podemos criar para você</h2>
+        <p>Escolha um serviço inicial ou combine vários em uma solução completa.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="icon">💬</span>
+          <h3>Atendimento com IA</h3>
+          <p>Chatbots e agentes que respondem dúvidas, qualificam leads e encaminham clientes.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">⚙️</span>
+          <h3>Automação de tarefas</h3>
+          <p>Fluxos para preencher planilhas, enviar mensagens, gerar documentos e organizar demandas.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">📊</span>
+          <h3>Relatórios inteligentes</h3>
+          <p>Análise de dados, resumos automáticos e alertas para decisões mais rápidas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="benefits" id="beneficios">
+      <div>
+        <p class="eyebrow">Benefícios</p>
+        <h2>Transforme processos manuais em sistemas automáticos.</h2>
+        <p>
+          O Hermes AI Agent ajuda sua empresa a reduzir retrabalho, responder mais rápido
+          e manter tudo organizado sem depender de tarefas repetitivas.
+        </p>
+      </div>
+      <ul class="benefit-list">
+        <li>✅ Atendimento mais rápido para clientes</li>
+        <li>✅ Menos erros em processos manuais</li>
+        <li>✅ Integração com ferramentas e arquivos</li>
+        <li>✅ Relatórios e acompanhamentos automáticos</li>
+      </ul>
+    </section>
+
+    <section class="section" id="planos">
+      <div class="section-heading">
+        <p class="eyebrow">Planos</p>
+        <h2>Comece pequeno e evolua com o tempo</h2>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Start</h3>
+          <p class="price">R$ 497</p>
+          <p>Uma automação simples para validar o primeiro resultado.</p>
+          <a href="#contato" class="button secondary">Escolher Start</a>
+        </article>
+        <article class="price-card featured">
+          <span class="badge">Mais escolhido</span>
+          <h3>Pro</h3>
+          <p class="price">R$ 1.497</p>
+          <p>Agente completo para atendimento, tarefas e relatórios.</p>
+          <a href="#contato" class="button primary">Escolher Pro</a>
+        </article>
+        <article class="price-card">
+          <h3>Custom</h3>
+          <p class="price">Sob consulta</p>
+          <p>Solução personalizada para processos complexos e integrações.</p>
+          <a href="#contato" class="button secondary">Solicitar proposta</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div>
+        <p class="eyebrow">Contato</p>
+        <h2>Pronto para criar seu primeiro agente?</h2>
+        <p>Preencha o formulário e receba uma sugestão de automação para seu negócio.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>
+          Nome
+          <input type="text" id="name" placeholder="Seu nome" required />
+        </label>
+        <label>
+          Email ou WhatsApp
+          <input type="text" id="contact" placeholder="seu@email.com ou telefone" required />
+        </label>
+        <label>
+          O que você quer automatizar?
+          <textarea id="message" rows="4" placeholder="Ex: atendimento, vendas, planilhas, relatórios..." required></textarea>
+        </label>
+        <button type="submit" class="button primary">Enviar interesse</button>
+        <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Hermes AI Agent. Página criada com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
